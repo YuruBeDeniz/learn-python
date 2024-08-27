@@ -231,6 +231,7 @@ employee_v3_file.close()
 
 from StudentFile import Student
 
-student1 = Student("Jim", "Business", "3.3", False)
+student1 = Student("Jim", "Business", 3.3, False)
 print(student1)
 print(student1.name)
+print(student1.on_honor_roll())

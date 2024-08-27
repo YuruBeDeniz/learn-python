@@ -16,7 +16,7 @@ questions = [
 def run_quiz(questions):
     score = 0
     for question in questions:
-        answer = input(question.prompt)
+        answer = input(question.prompt + "Your answer: ")
         if answer.lower() == question.answer:
             score += 1
     print("You got " + str(score) + "/" + str(len(questions)) + " correct")
