@@ -228,3 +228,9 @@ employee_v2_file.write("Toby - Human Resources")
 employee_v3_file = open("employees_v3.txt", "w")
 employee_v3_file.write("Toby - Human Resources")
 employee_v3_file.close()
+
+from StudentFile import Student
+
+student1 = Student("Jim", "Business", "3.3", False)
+print(student1)
+print(student1.name)

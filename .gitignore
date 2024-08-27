@@ -1,0 +1,17 @@
+# Bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE (PyCharm) settings
+.idea/
+
+# OS generated files
+.DS_Store    # macOS folder attribute files
+Thumbs.db    # Windows thumbnail cache
+desktop.ini  # Windows folders settings
+
+# Logs and databases
+*.log
